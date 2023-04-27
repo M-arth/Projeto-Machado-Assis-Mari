@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@500 & display=swap');
+
+/*
+#37E5B8
+#5CAA95
+#25997A
+#7CE5C9
+#186651
+*/
+
+
+:root{
+    --Verde1:#37E5B8;
+    --Verde2:#5CAA95;
+    --Verde3:#25997A;
+    --Verde4:#7CE5C9;
+    --Verde5:#186651;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--Verde2);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom,var(--Verde5), var(--Verde4));/*(direção, a 1° cor, 2° cor)*/
+    min-height: 130px; /*Altura mínima*/
+    text-align: center;/*Alinhamento do texto*/
+    padding-top: 50px;/*Espaçamento dentro da caixa na parte superior*/
+}
+
+header > h1{
+    color: black;
+    font-weight: 500px;/*Peso da fonte, espessura do negrito*/
+    margin-bottom: 20px;/*Espaço até o próximo elemento, no caso inferior*/
+}
+
+header > p{
+    color: rgb(0, 26, 0);/*Só para o contato direto*/
+
+}
+
+/*header p{
+    color: blue; /*Todos que estão dentro do header*/
+
+nav{
+    background-color: var(--Verde3);
+    padding: 10px;/*mesmo espaço para os 4 lados*/
+    box-shadow: -2px -2px 14px 1px rgb(4, 46, 36); /* x, y, extensão e desfoque*/
+}
+
+nav > a{
+    color: black;
+    padding: 10px;
+    text-decoration: none; /*Sublinhado, none, overline, underline*/
+    font-weight: bold;
+    border-radius: 5px;/*Arredondamento das vértices*/
+    transition-duration: o.5s;/*Duração da transição para outro estado*/
+}
+
+nav > a:hover{ /*Pseudo-classe - adiciona um estado especial*/
+    background-color: var(--Verde5);
+    color: white;
+    font-size: 20px;
+}
+
+main{
+    background-color: white;
+    min-width: 320px;/*Largura mínima*/
+    max-width: 1000px;/*Largura máxima*/
+    margin: auto;/*Nesse contexto, utilizado para centralizar o elemento*/
+    margin-top: 5px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 5px 12px 0px;
+    text-align: center;
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--Verde2), transparent);
+    text-align: center;/*Alinhamento de texto, centralizado*/
+}
+
+main p{
+    font-size: 18px;
+    text-align: justify;/*Alinhamento de texto: center left right justify*/
+    text-indent: 40px;
+    margin: 15px 0px; /*fora do elemento, 15px (top, bottom), 0 (left, right)*/
+    line-height: 1.5em;
+}
+
+img, iframe{
+    width: 50%;
+    border: 10px double black ;/*borda: espessura estilo cor*/
+}
+ 
+
+figcaption{
+    font-size: 12px;
+}
+
+pre{
+    text-align: center;
+}
+
+aside{
+    background-color: var(--Verde3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside > ul{
+    list-style-position: inside;/*coloca os marcadores da lista dentro da caixa do elemento*/
+    text-align: justify;
+}
+
+aside > h3{
+    background-color: var(--Verde5);/*color*/
+    padding: 10px;
+    margin: -15px -10px 0px -10px;
+    border-radius: 10px 10px 0 0;
+}
+
+iframe{
+    margin-bottom: 20px;
+    
+}
+
+footer{
+    font-size: 12px;
+    /*background-color, color*/
+    text-align: center;
+    padding: 3px;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
