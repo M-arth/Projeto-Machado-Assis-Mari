@@ -84,7 +84,7 @@ main{
 }
 
 main h2{
-    background-image: linear-gradient(to right, var(--Verde2), transparent);
+    background-image: linear-gradient(to right, var(--Verde5), transparent);
     text-align: center;/*Alinhamento de texto, centralizado*/
 }
 
@@ -122,7 +122,7 @@ aside > ul{
 }
 
 aside > h3{
-    background-color: var(--Verde5);/*color*/
+    background-color: var(--Verde4);/*color*/
     padding: 10px;
     margin: -15px -10px 0px -10px;
     border-radius: 10px 10px 0 0;
